@@ -27,14 +27,14 @@ The context isn’t responsible for selecting an appropriate algorithm for the j
 
 This way the context becomes independent of concrete strategies, so you can add new algorithms or modify existing ones without changing the code of the context or other strategies.
 
-![image](https://hackmd.io/_uploads/Hk-M60ija.png)
+![image](https://github.com/SCYeh/Design_Pattern_Practice/assets/88961674/3c268002-385f-4429-9dd7-5ef07434ff03)
 
 In our navigation app, each routing algorithm can be extracted to its own class with a single `buildRoute` method. The method accepts an origin and destination and returns a collection of the route’s checkpoints.
 
 Even though given the same arguments, each routing class might build a different route, the main navigator class doesn’t really care which algorithm is selected since its primary job is to render a set of checkpoints on the map. The class has a method for switching the active routing strategy, so its clients, such as the buttons in the user interface, can replace the currently selected routing behavior with another one.
 
 ## Structure
-![image](https://hackmd.io/_uploads/rkhqaRjjT.png)
+![image](https://github.com/SCYeh/Design_Pattern_Practice/assets/88961674/32ffc8dc-d508-47dd-832a-feff2d86b27b)
 1. The **Context** maintains a reference to one of the concrete strategies and communicates with this object only via the strategy interface.
 2. The **Strategy** interface is common to all concrete strategies. It declares a method the context uses to execute a strategy.
 3. **Concrete Strategies** implement different variations of an algorithm the context uses.
@@ -42,7 +42,7 @@ Even though given the same arguments, each routing class might build a different
 5. The **Client** creates a specific strategy object and passes it to the context. The context exposes a setter which lets clients replace the strategy associated with the context at runtime.
 
 ## Practice Class Diagram
-![Strategy_UML](https://hackmd.io/_uploads/SJiXg1hoT.png)
+![image](https://github.com/SCYeh/Design_Pattern_Practice/assets/88961674/8740b21a-0b9d-4c1f-b577-fff65ed09014)
 
 ## Applicability
 1. Use the Strategy pattern when you want to use different variants of an algorithm within an object and be able to switch from one algorithm to another during runtime.
