@@ -4,8 +4,8 @@ import Strategy.Flyable.FlyBehavior;
 import Strategy.Quackable.QuackBehavior;
 
 public abstract class Duck {
-    FlyBehavior flyBehavior;
-    QuackBehavior quackBehavior;
+    protected FlyBehavior flyBehavior;
+    protected QuackBehavior quackBehavior;
 
     public void setFlyBehavior(FlyBehavior flyBehavior) {
         this.flyBehavior = flyBehavior;
