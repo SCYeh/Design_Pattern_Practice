@@ -14,5 +14,7 @@ public class ObserverTest {
         weatherData.setMeasurements(27, 25, 15);
         weatherData.removeObserver(currentConditionsDisplay_1);
         weatherData.setMeasurements(22, 20, 10);
+        weatherData.removeObserver(currentConditionsDisplay_2);
+        weatherData.setMeasurements(17, 15, 5);
     }
 }

@@ -36,6 +36,7 @@ public class WeatherData implements Subject {
     }
 
     public void notifyObserver() {
+        if (observers.isEmpty()) { System.out.println("No Observers!");}
         for (Observer o : observers) {
             o.update();
         }
