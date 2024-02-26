@@ -4,7 +4,7 @@ import Adapter.Duck.Duck;
 import Adapter.Turkey.Turkey;
 
 public class TurkeyAdapter implements Duck {
-    Turkey turkey;
+    private Turkey turkey;
 
     public TurkeyAdapter(Turkey turkey) {
         this.turkey = turkey;
