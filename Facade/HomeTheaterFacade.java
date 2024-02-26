@@ -3,12 +3,12 @@ package Facade;
 import Facade.HomeTheater.*;
 
 public class HomeTheaterFacade {
-    Popper popper;
-    Light light;
-    Screen screen;
-    Projector projector;
-    Amp amp;
-    Player player;
+    public Popper popper;
+    public Light light;
+    public Screen screen;
+    public Projector projector;
+    public Amp amp;
+    public Player player;
 
     public HomeTheaterFacade(Popper popper, Light light, Screen screen, Projector projector, Amp amp, Player player) {
         this.popper = popper;
