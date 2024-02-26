@@ -56,7 +56,7 @@ For instance, an app that uploads short funny videos with cats to social media c
 
 - **Flyweight** shows how to make lots of little objects, whereas **Facade** shows how to make a single object that represents an entire subsystem.
 
-- **Facade** and Me****diator have similar jobs: they try to organize collaboration between lots of tightly coupled classes.
+- **Facade** and **Mediator** have similar jobs: they try to organize collaboration between lots of tightly coupled classes.
     - Facade defines a simplified interface to a subsystem of objects, but it doesn’t introduce any new functionality. The subsystem itself is unaware of the facade. Objects within the subsystem can communicate directly.
     - Mediator centralizes communication between components of the system. The components only know about the mediator object and don’t communicate directly.
 
