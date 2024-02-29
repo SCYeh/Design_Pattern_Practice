@@ -53,6 +53,10 @@ public class GumballMachine {
         state.ejectQuarter();
     }
 
+    public void replenish() {
+        state.replenish();
+    }
+
     public void turnCrank() {
         state.turnCrank();
         state.dispense();
@@ -60,6 +64,10 @@ public class GumballMachine {
 
     public void setState(State state) {
         this.state = state;
+    }
+
+    public void setGumballCount(int gumballCount) {
+        this.gumballCount = gumballCount;
     }
 
     public void releaseGumball() {

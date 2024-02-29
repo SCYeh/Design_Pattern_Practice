@@ -3,7 +3,7 @@ package State.State;
 import State.GumballMachine;
 
 public class NoQuarterState implements State {
-    GumballMachine gumballMachine;
+    private GumballMachine gumballMachine;
 
     public NoQuarterState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
@@ -23,4 +23,9 @@ public class NoQuarterState implements State {
     }
 
     public void dispense() {}
+
+    
+    public void replenish() {
+        System.out.println("Gumball haven't sold out!");
+    }
 }

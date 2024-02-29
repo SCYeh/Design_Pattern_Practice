@@ -3,7 +3,7 @@ package State.State;
 import State.GumballMachine;
 
 public class SoldState implements State {
-    GumballMachine gumballMachine;
+    private GumballMachine gumballMachine;
 
     public SoldState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
@@ -29,4 +29,6 @@ public class SoldState implements State {
             gumballMachine.setState(gumballMachine.getSoldOutState());
         }
     }
+
+    public void replenish() {}
 }

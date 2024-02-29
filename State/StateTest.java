@@ -6,9 +6,11 @@ public class StateTest {
 
         gumballMachine.ejectQuarter();
         gumballMachine.turnCrank();
+        gumballMachine.replenish();
         gumballMachine.insertQuarter();
 
         gumballMachine.insertQuarter();
+        gumballMachine.replenish();
         gumballMachine.ejectQuarter();
         gumballMachine.insertQuarter();
         gumballMachine.turnCrank();
@@ -19,5 +21,7 @@ public class StateTest {
         System.out.println("Next round!\n");
 
         gumballMachine.insertQuarter();
+        gumballMachine.replenish();
+        System.out.println(String.format("Number of gumballs: %d", gumballMachine.getGumballCount()));
     }
 }
