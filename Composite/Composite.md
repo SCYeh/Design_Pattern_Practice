@@ -24,7 +24,7 @@ How would this method work? For a product, it’d simply return the product’s 
 The greatest benefit of this approach is that you don’t need to care about the concrete classes of objects that compose the tree. You don’t need to know whether an object is a simple product or a sophisticated box. You can treat them all the same via the common interface. When you call a method, the objects themselves pass the request down the tree.
 
 ## Structure
-![image](https://github.com/SCYeh/Design_Pattern_Practice/assets/88961674/245e917c-e3ad-470e-8296-663262806202)
+![image](https://github.com/SCYeh/Design_Pattern_Practice/assets/88961674/259d30b5-0219-4ed6-a3d7-8211dfaaffe1)
 
 1. The **Component** interface describes operations that are common to both simple and complex elements of the tree.
 
