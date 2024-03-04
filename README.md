@@ -40,25 +40,25 @@ In addition, all patterns can be categorized by their intent, or purpose. This b
 - **Creational** patterns provide object creation mechanisms that increase flexibility and reuse of existing code.
     - Factory Method
     - Abstract Factory
-    - Builder
-    - Prototype
+    - ~~Builder~~
+    - ~~Prototype~~
     - Singleton
 - **Structural** patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
     - Adapter
-    - Bridge
+    - ~~Bridge~~
     - Composite
     - Decorator
     - Facade
-    - Flyweight
-    - Proxy
+    - ~~Flyweight~~
+    - ~~Proxy~~
 - **Behavioral** patterns take care of effective communication and the assignment of responsibilities between objects
-    - Chain of Responsibility
+    - ~~Chain of Responsibility~~
     - Command
     - Iterator
-    - Mediator
-    - Memento
+    - ~~Mediator~~
+    - ~~Memento~~
     - Observer
     - State
     - Strategy
     - Template Method
-    - Visitor
+    - ~~Visitor~~
