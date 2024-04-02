@@ -38,27 +38,27 @@ The most universal and high-level patterns are architectural patterns. Developer
 In addition, all patterns can be categorized by their intent, or purpose. This book covers three main groups of patterns:
 
 - **Creational** patterns provide object creation mechanisms that increase flexibility and reuse of existing code.
-    - Factory Method
-    - Abstract Factory
+    - [Factory Method](./Factory/Factory_Method.md)
+    - [Abstract Factory](./Factory/Abstract_Factory.md)
     - ~~Builder~~
     - ~~Prototype~~
-    - Singleton
+    - [Singleton](./Singleton/Singleton.md)
 - **Structural** patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
-    - Adapter
+    - [Adapter](./Adapter/Adapter.md)
     - ~~Bridge~~
-    - Composite
-    - Decorator
-    - Facade
+    - [Composite](./Composite/Composite.md)
+    - [Decorator](./Decorator/Decorator.md)
+    - [Facade](./Facade/Facade.md)
     - ~~Flyweight~~
     - ~~Proxy~~
 - **Behavioral** patterns take care of effective communication and the assignment of responsibilities between objects
     - ~~Chain of Responsibility~~
-    - Command
-    - Iterator
+    - [Command](./Command/Command.md)
+    - [Iterator](./Iterator/Iterator.md)
     - ~~Mediator~~
     - ~~Memento~~
-    - Observer
-    - State
-    - Strategy
-    - Template Method
+    - [Observer](./Observer/Observer.md)
+    - [State](./State/State.md)
+    - [Strategy](./Strategy/Strategy.md)
+    - [Template Method](./Template/Template.md)
     - ~~Visitor~~
